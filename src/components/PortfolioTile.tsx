@@ -8,7 +8,9 @@ interface PortfolioTileProps {
   video: string;
 }
 
-const PortfolioTile = ({ title, thumbnail, video }: PortfolioTileProps) => {
+const PortfolioTile = ({ id, title, thumbnail, video }: PortfolioTileProps) => {
+  const navigate = useNavigate();
+  const videoRef = useRef<HTMLVideoElement>(null);
   const videoRef = useRef<HTMLVideoElement>(null);
   const [hovered, setHovered] = useState(false);
 
