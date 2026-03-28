@@ -1,0 +1,49 @@
+{
+  "artist": {
+    "name": "Studio Lumina",
+    "tagline": "Digital Art & Motion"
+  },
+  "navigation": [
+    { "label": "Work", "href": "#work" },
+    { "label": "About", "href": "#about" },
+    { "label": "Shop", "href": "#shop" }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Geometric Bloom",
+      "thumbnail": "/images/thumb-1.jpg",
+      "video": "https://www.w3schools.com/html/mov_bbb.mp4"
+    },
+    {
+      "id": "2",
+      "title": "Garden Cat",
+      "thumbnail": "/images/thumb-2.jpg",
+      "video": "https://www.w3schools.com/html/mov_bbb.mp4"
+    },
+    {
+      "id": "3",
+      "title": "Afternoon Rest",
+      "thumbnail": "/images/thumb-3.jpg",
+      "video": "https://www.w3schools.com/html/mov_bbb.mp4"
+    },
+    {
+      "id": "4",
+      "title": "Rolling Hills",
+      "thumbnail": "/images/thumb-4.jpg",
+      "video": "https://www.w3schools.com/html/mov_bbb.mp4"
+    },
+    {
+      "id": "5",
+      "title": "Moonlit Night",
+      "thumbnail": "/images/thumb-5.jpg",
+      "video": "https://www.w3schools.com/html/mov_bbb.mp4"
+    },
+    {
+      "id": "6",
+      "title": "Fresh Harvest",
+      "thumbnail": "/images/thumb-6.jpg",
+      "video": "https://www.w3schools.com/html/mov_bbb.mp4"
+    }
+  ]
+}
