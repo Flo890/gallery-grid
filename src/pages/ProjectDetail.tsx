@@ -35,7 +35,7 @@ const ProjectDetail = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <PortfolioHeader name={data.artist.name} navigation={data.navigation} />
+      <PortfolioHeader name={data.artist.name} navigation={data.navigation} compact />
       <main className="mx-auto max-w-5xl px-4 pb-16">
         <Link
           to="/"
