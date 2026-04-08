@@ -8,6 +8,7 @@ interface Project {
   title: string;
   thumbnail: string;
   video: string;
+  embed?: string;
   description?: string;
   gallery?: string[];
 }
